@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Lesson" representedClassName="Lesson" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="piece" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Piece" inverseName="lesson" inverseEntity="Piece" syncable="YES"/>
+        <relationship name="pieceStatus" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PieceStatus" inverseName="lesson" inverseEntity="PieceStatus" syncable="YES"/>
+        <relationship name="recording" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Recording" inverseName="lesson" inverseEntity="Recording" syncable="YES"/>
+        <relationship name="student" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="lesson" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="student" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="note" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="student" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="photo" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Piece" representedClassName="Piece" syncable="YES">
+        <attribute name="composer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="difficulty" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="genre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lesson" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lesson" inverseName="piece" inverseEntity="Lesson" syncable="YES"/>
+    </entity>
+    <entity name="PieceStatus" representedClassName="PieceStatus" syncable="YES">
+        <attribute name="currentTempo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lessonDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pieceTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceTime" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="lesson" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Lesson" inverseName="pieceStatus" inverseEntity="Lesson" syncable="YES"/>
+        <relationship name="recording" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Recording" inverseName="pieceStatus" inverseEntity="Recording" syncable="YES"/>
+    </entity>
+    <entity name="Recording" representedClassName="Recording" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lesson" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Lesson" inverseName="recording" inverseEntity="Lesson" syncable="YES"/>
+        <relationship name="pieceStatus" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PieceStatus" inverseName="recording" inverseEntity="PieceStatus" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="lesson" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lesson" inverseName="student" inverseEntity="Lesson" syncable="YES"/>
+        <relationship name="note" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="student" inverseEntity="Note" syncable="YES"/>
+        <relationship name="photo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="student" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Lesson" positionX="385" positionY="225" width="128" height="105"/>
+        <element name="Note" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Photo" positionX="-54" positionY="252" width="128" height="75"/>
+        <element name="Piece" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="PieceStatus" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="Recording" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Student" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>

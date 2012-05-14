@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40377951554186800D8A7BA /* TATextDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A40377941554186800D8A7BA /* TATextDocument.m */; };
+		A40377981554F9D800D8A7BA /* TADatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40377971554F9D700D8A7BA /* TADatabaseViewController.m */; };
+		A41729D6154A41280000DDE0 /* PieceStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A41729D5154A41280000DDE0 /* PieceStatus.m */; };
+		A43E22421529FDBD00564714 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E22411529FDBD00564714 /* Piece.m */; };
+		A43E2245152AEB0000564714 /* TAPieceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E2244152AEAFF00564714 /* TAPieceDetailViewController.m */; };
+		A447BC1A15272A1C00EC72BF /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = A447BC1915272A1C00EC72BF /* noimage.png */; };
+		A447BC2115272F2300EC72BF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A447BC2015272F2300EC72BF /* AddressBookUI.framework */; };
+		A447BC231527300A00EC72BF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A447BC221527300A00EC72BF /* AddressBook.framework */; };
+		A447BC2C15276E3E00EC72BF /* UIImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC2B15276E3E00EC72BF /* UIImageToDataTransformer.m */; };
+		A447BC2E152789CA00EC72BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A447BC2D152789CA00EC72BF /* CoreLocation.framework */; };
+		A447BC3015278D8300EC72BF /* UIImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC2B15276E3E00EC72BF /* UIImageToDataTransformer.m */; };
+		A447BC391527C18400EC72BF /* TALessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC381527C18400EC72BF /* TALessonViewController.m */; };
+		A447BC451528030C00EC72BF /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC441528030B00EC72BF /* CoreDataTableViewController.m */; };
+		A447BC4B1528071800EC72BF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC4A1528071800EC72BF /* Photo.m */; };
+		A447BC50152809E200EC72BF /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC441528030B00EC72BF /* CoreDataTableViewController.m */; };
+		A447BC5B15290AF600EC72BF /* TALessonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC5A15290AF600EC72BF /* TALessonDetailViewController.m */; };
+		A447BC5E1529161000EC72BF /* TAConfirmDeleteLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC5D1529160F00EC72BF /* TAConfirmDeleteLessonViewController.m */; };
+		A447BC611529F25400EC72BF /* TAAddPieceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A447BC601529F25400EC72BF /* TAAddPieceViewController.m */; };
+		A46605181550BDBF002DBF6A /* TAHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46605171550BDBF002DBF6A /* TAHelpViewController.m */; };
+		A466051B1550C48D002DBF6A /* help1.html in Resources */ = {isa = PBXBuildFile; fileRef = A466051A1550C48D002DBF6A /* help1.html */; };
+		A466051D1550C746002DBF6A /* createStudent.html in Resources */ = {isa = PBXBuildFile; fileRef = A466051C1550C746002DBF6A /* createStudent.html */; };
+		A466051F1550DF38002DBF6A /* createLesson.html in Resources */ = {isa = PBXBuildFile; fileRef = A466051E1550DF38002DBF6A /* createLesson.html */; };
+		A46605211550E0F8002DBF6A /* lessonDetailPage.html in Resources */ = {isa = PBXBuildFile; fileRef = A46605201550E0F8002DBF6A /* lessonDetailPage.html */; };
+		A46605231550E604002DBF6A /* pieceDetailPage.html in Resources */ = {isa = PBXBuildFile; fileRef = A46605221550E604002DBF6A /* pieceDetailPage.html */; };
+		A46605251550E7EC002DBF6A /* addingPiece.html in Resources */ = {isa = PBXBuildFile; fileRef = A46605241550E7EC002DBF6A /* addingPiece.html */; };
+		A46605271550EA1A002DBF6A /* removePiece.html in Resources */ = {isa = PBXBuildFile; fileRef = A46605261550EA1A002DBF6A /* removePiece.html */; };
+		A47D238B1523FB0400FE9005 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D238A1523FB0400FE9005 /* UIKit.framework */; };
+		A47D238D1523FB0400FE9005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D238C1523FB0400FE9005 /* Foundation.framework */; };
+		A47D238F1523FB0400FE9005 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D238E1523FB0400FE9005 /* CoreGraphics.framework */; };
+		A47D23911523FB0400FE9005 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D23901523FB0400FE9005 /* CoreData.framework */; };
+		A47D23971523FB0400FE9005 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A47D23951523FB0400FE9005 /* InfoPlist.strings */; };
+		A47D23991523FB0400FE9005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D23981523FB0400FE9005 /* main.m */; };
+		A47D239D1523FB0400FE9005 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D239C1523FB0400FE9005 /* TAAppDelegate.m */; };
+		A47D23A01523FB0500FE9005 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47D239E1523FB0500FE9005 /* MainStoryboard.storyboard */; };
+		A47D23A31523FB0500FE9005 /* TeachingAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A47D23A11523FB0500FE9005 /* TeachingAssistant.xcdatamodeld */; };
+		A47D23A61523FB0500FE9005 /* TAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D23A51523FB0500FE9005 /* TAMasterViewController.m */; };
+		A47D23A91523FB0500FE9005 /* TADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D23A81523FB0500FE9005 /* TADetailViewController.m */; };
+		A47D23B11523FB0500FE9005 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D23B01523FB0500FE9005 /* SenTestingKit.framework */; };
+		A47D23B21523FB0500FE9005 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D238A1523FB0400FE9005 /* UIKit.framework */; };
+		A47D23B31523FB0500FE9005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D238C1523FB0400FE9005 /* Foundation.framework */; };
+		A47D23B41523FB0500FE9005 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D23901523FB0400FE9005 /* CoreData.framework */; };
+		A47D23BC1523FB0500FE9005 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A47D23BA1523FB0500FE9005 /* InfoPlist.strings */; };
+		A47D23BF1523FB0500FE9005 /* TeachingAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D23BE1523FB0500FE9005 /* TeachingAssistantTests.m */; };
+		A47D23D015240D1100FE9005 /* TAEditStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D23CF15240D1000FE9005 /* TAEditStudentViewController.m */; };
+		A48C32EC152CA0E2006CD385 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48C32EB152CA0E2006CD385 /* AVFoundation.framework */; };
+		A48C3339152CEC01006CD385 /* tick.caf in Resources */ = {isa = PBXBuildFile; fileRef = A48C3338152CEC01006CD385 /* tick.caf */; };
+		A48C333A152CEDF5006CD385 /* tick.caf in Resources */ = {isa = PBXBuildFile; fileRef = A48C3338152CEC01006CD385 /* tick.caf */; };
+		A48C333D152CF375006CD385 /* TARemovePieceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C333C152CF375006CD385 /* TARemovePieceViewController.m */; };
+		A48C3340152D0807006CD385 /* TAReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C333F152D0807006CD385 /* TAReportViewController.m */; };
+		A48C3343152D5BD8006CD385 /* TANotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C3342152D5BD8006CD385 /* TANotesViewController.m */; };
+		A48C334C152D672A006CD385 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C334B152D6729006CD385 /* Student.m */; };
+		A48C334F152D6A85006CD385 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = A48C334E152D6A85006CD385 /* Note.m */; };
+		A4B0718F154C1DC200C23945 /* ModalAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B0718E154C1DC200C23945 /* ModalAlertView.m */; };
+		A4BCBB471526A6EB0035876F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BCBB461526A6EB0035876F /* MobileCoreServices.framework */; };
+		A4DE1E3A1548CDD20058A023 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DE1E391548CDD20058A023 /* MessageUI.framework */; };
+		A4DE1E4C154908310058A023 /* lessonbooksplash320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E4B154908310058A023 /* lessonbooksplash320x480.png */; };
+		A4DE1E4E1549083E0058A023 /* lessonbooksplash640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E4D1549083E0058A023 /* lessonbooksplash640x960.png */; };
+		A4DE1E521549085B0058A023 /* bookphoto114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E4F1549085B0058A023 /* bookphoto114x114.png */; };
+		A4DE1E531549085B0058A023 /* bookphoto512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E501549085B0058A023 /* bookphoto512x512.png */; };
+		A4DE1E56154908F10058A023 /* bookphoto57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E55154908F10058A023 /* bookphoto57x57.png */; };
+		A4DE1E58154909130058A023 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E57154909130058A023 /* Default.png */; };
+		A4DE1E5A1549091F0058A023 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DE1E591549091F0058A023 /* Default@2x.png */; };
+		A4E30D5815449EE800E621DA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E30D5715449EE800E621DA /* AudioToolbox.framework */; };
+		A4E30D5B1544D2FB00E621DA /* TARecordingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E30D5A1544D2FB00E621DA /* TARecordingsViewController.m */; };
+		A4E30D5D1544E32400E621DA /* iOSPhoneLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E30D5C1544E32400E621DA /* iOSPhoneLarge.png */; };
+		A4E30D5F1544E3D100E621DA /* iPhone-E-mail-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E30D5E1544E3D100E621DA /* iPhone-E-mail-Icon.png */; };
+		A4E30D621546486400E621DA /* TARepertoireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E30D611546486400E621DA /* TARepertoireViewController.m */; };
+		A4E30D6415465AD100E621DA /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E30D6315465AD000E621DA /* GameKit.framework */; };
+		A4E30D66154680E100E621DA /* Bluetooth_Icon_by_justinlavelle.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E30D65154680E100E621DA /* Bluetooth_Icon_by_justinlavelle.png */; };
+		A4E30D6C15468A2600E621DA /* uparrowbt.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E30D6B15468A2500E621DA /* uparrowbt.png */; };
+		A4E30D6E15468AF600E621DA /* downarrowbt.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E30D6D15468AF600E621DA /* downarrowbt.png */; };
+		A4EC31D715424DA2007C07AD /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC31D615424DA1007C07AD /* CoreAudio.framework */; };
+		A4EC31E315434B75007C07AD /* Lesson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC31E215434B71007C07AD /* Lesson.m */; };
+		A4EC31E9154355C2007C07AD /* Recording.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC31E8154355C1007C07AD /* Recording.m */; };
+		A4EC31EC1543E584007C07AD /* flare.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EC31EB1543E584007C07AD /* flare.png */; };
+		A4F41FEC1547BC960063A5F7 /* redbluetoothicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F41FEB1547BC960063A5F7 /* redbluetoothicon.png */; };
+		A4F41FF11547C7190063A5F7 /* welcome_airprint2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F41FF01547C7190063A5F7 /* welcome_airprint2.png */; };
+		A4F41FF31547C8660063A5F7 /* Calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F41FF21547C8660063A5F7 /* Calendar-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A47D23B51523FB0500FE9005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47D237D1523FB0400FE9005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47D23851523FB0400FE9005;
+			remoteInfo = TeachingAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A40377911554130F00D8A7BA /* Lesson Book.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Lesson Book.entitlements"; sourceTree = "<group>"; };
+		A40377931554186800D8A7BA /* TATextDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATextDocument.h; sourceTree = "<group>"; };
+		A40377941554186800D8A7BA /* TATextDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATextDocument.m; sourceTree = "<group>"; };
+		A40377961554F9D700D8A7BA /* TADatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADatabaseViewController.h; sourceTree = "<group>"; };
+		A40377971554F9D700D8A7BA /* TADatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADatabaseViewController.m; sourceTree = "<group>"; };
+		A41729D4154A41280000DDE0 /* PieceStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceStatus.h; sourceTree = "<group>"; };
+		A41729D5154A41280000DDE0 /* PieceStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceStatus.m; sourceTree = "<group>"; };
+		A43E22401529FDBD00564714 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = ../Piece.h; sourceTree = "<group>"; };
+		A43E22411529FDBD00564714 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Piece.m; path = ../Piece.m; sourceTree = "<group>"; };
+		A43E2243152AEAFF00564714 /* TAPieceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPieceDetailViewController.h; sourceTree = "<group>"; };
+		A43E2244152AEAFF00564714 /* TAPieceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPieceDetailViewController.m; sourceTree = "<group>"; };
+		A447BC1915272A1C00EC72BF /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		A447BC2015272F2300EC72BF /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A447BC221527300A00EC72BF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A447BC2A15276E3E00EC72BF /* UIImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageToDataTransformer.h; sourceTree = "<group>"; };
+		A447BC2B15276E3E00EC72BF /* UIImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageToDataTransformer.m; sourceTree = "<group>"; };
+		A447BC2D152789CA00EC72BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A447BC371527C18400EC72BF /* TALessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALessonViewController.h; sourceTree = "<group>"; };
+		A447BC381527C18400EC72BF /* TALessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALessonViewController.m; sourceTree = "<group>"; };
+		A447BC431528030B00EC72BF /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		A447BC441528030B00EC72BF /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		A447BC491528071800EC72BF /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		A447BC4A1528071800EC72BF /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		A447BC5915290AF500EC72BF /* TALessonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALessonDetailViewController.h; sourceTree = "<group>"; };
+		A447BC5A15290AF600EC72BF /* TALessonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALessonDetailViewController.m; sourceTree = "<group>"; };
+		A447BC5C1529160F00EC72BF /* TAConfirmDeleteLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAConfirmDeleteLessonViewController.h; sourceTree = "<group>"; };
+		A447BC5D1529160F00EC72BF /* TAConfirmDeleteLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAConfirmDeleteLessonViewController.m; sourceTree = "<group>"; };
+		A447BC5F1529F25300EC72BF /* TAAddPieceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAddPieceViewController.h; sourceTree = "<group>"; };
+		A447BC601529F25400EC72BF /* TAAddPieceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAddPieceViewController.m; sourceTree = "<group>"; };
+		A46605161550BDBF002DBF6A /* TAHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHelpViewController.h; sourceTree = "<group>"; };
+		A46605171550BDBF002DBF6A /* TAHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHelpViewController.m; sourceTree = "<group>"; };
+		A466051A1550C48D002DBF6A /* help1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = help1.html; path = TeachingAssistant/help1.html; sourceTree = "<group>"; };
+		A466051C1550C746002DBF6A /* createStudent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = createStudent.html; path = TeachingAssistant/createStudent.html; sourceTree = "<group>"; };
+		A466051E1550DF38002DBF6A /* createLesson.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = createLesson.html; path = TeachingAssistant/createLesson.html; sourceTree = "<group>"; };
+		A46605201550E0F8002DBF6A /* lessonDetailPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = lessonDetailPage.html; path = TeachingAssistant/lessonDetailPage.html; sourceTree = "<group>"; };
+		A46605221550E604002DBF6A /* pieceDetailPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pieceDetailPage.html; path = TeachingAssistant/pieceDetailPage.html; sourceTree = "<group>"; };
+		A46605241550E7EC002DBF6A /* addingPiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = addingPiece.html; path = TeachingAssistant/addingPiece.html; sourceTree = "<group>"; };
+		A46605261550EA1A002DBF6A /* removePiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = removePiece.html; path = TeachingAssistant/removePiece.html; sourceTree = "<group>"; };
+		A47D23861523FB0400FE9005 /* Lesson Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D238A1523FB0400FE9005 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A47D238C1523FB0400FE9005 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A47D238E1523FB0400FE9005 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A47D23901523FB0400FE9005 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A47D23941523FB0400FE9005 /* Lesson Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson Book-Info.plist"; sourceTree = "<group>"; };
+		A47D23961523FB0400FE9005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A47D23981523FB0400FE9005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A47D239A1523FB0400FE9005 /* Lesson Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lesson Book-Prefix.pch"; sourceTree = "<group>"; };
+		A47D239B1523FB0400FE9005 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		A47D239C1523FB0400FE9005 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		A47D239F1523FB0500FE9005 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A47D23A21523FB0500FE9005 /* TeachingAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeachingAssistant.xcdatamodel; sourceTree = "<group>"; };
+		A47D23A41523FB0500FE9005 /* TAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAMasterViewController.h; sourceTree = "<group>"; };
+		A47D23A51523FB0500FE9005 /* TAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAMasterViewController.m; sourceTree = "<group>"; };
+		A47D23A71523FB0500FE9005 /* TADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TADetailViewController.h; sourceTree = "<group>"; };
+		A47D23A81523FB0500FE9005 /* TADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TADetailViewController.m; sourceTree = "<group>"; };
+		A47D23AF1523FB0500FE9005 /* Lesson BookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson BookTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D23B01523FB0500FE9005 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A47D23B91523FB0500FE9005 /* Lesson BookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson BookTests-Info.plist"; sourceTree = "<group>"; };
+		A47D23BB1523FB0500FE9005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A47D23BD1523FB0500FE9005 /* TeachingAssistantTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeachingAssistantTests.h; sourceTree = "<group>"; };
+		A47D23BE1523FB0500FE9005 /* TeachingAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeachingAssistantTests.m; sourceTree = "<group>"; };
+		A47D23CE15240D1000FE9005 /* TAEditStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAEditStudentViewController.h; sourceTree = "<group>"; };
+		A47D23CF15240D1000FE9005 /* TAEditStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAEditStudentViewController.m; sourceTree = "<group>"; };
+		A48C32EB152CA0E2006CD385 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A48C3338152CEC01006CD385 /* tick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tick.caf; sourceTree = "<group>"; };
+		A48C333B152CF375006CD385 /* TARemovePieceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARemovePieceViewController.h; sourceTree = "<group>"; };
+		A48C333C152CF375006CD385 /* TARemovePieceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARemovePieceViewController.m; sourceTree = "<group>"; };
+		A48C333E152D0806006CD385 /* TAReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAReportViewController.h; sourceTree = "<group>"; };
+		A48C333F152D0807006CD385 /* TAReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAReportViewController.m; sourceTree = "<group>"; };
+		A48C3341152D5BD7006CD385 /* TANotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANotesViewController.h; sourceTree = "<group>"; };
+		A48C3342152D5BD8006CD385 /* TANotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANotesViewController.m; sourceTree = "<group>"; };
+		A48C334A152D6729006CD385 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A48C334B152D6729006CD385 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A48C334D152D6A85006CD385 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = ../Note.h; sourceTree = "<group>"; };
+		A48C334E152D6A85006CD385 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = ../Note.m; sourceTree = "<group>"; };
+		A4B0718D154C1DC200C23945 /* ModalAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalAlertView.h; sourceTree = "<group>"; };
+		A4B0718E154C1DC200C23945 /* ModalAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalAlertView.m; sourceTree = "<group>"; };
+		A4BCBB461526A6EB0035876F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A4DE1E391548CDD20058A023 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A4DE1E4B154908310058A023 /* lessonbooksplash320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lessonbooksplash320x480.png; sourceTree = "<group>"; };
+		A4DE1E4D1549083E0058A023 /* lessonbooksplash640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lessonbooksplash640x960.png; sourceTree = "<group>"; };
+		A4DE1E4F1549085B0058A023 /* bookphoto114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookphoto114x114.png; sourceTree = "<group>"; };
+		A4DE1E501549085B0058A023 /* bookphoto512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookphoto512x512.png; sourceTree = "<group>"; };
+		A4DE1E55154908F10058A023 /* bookphoto57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookphoto57x57.png; sourceTree = "<group>"; };
+		A4DE1E57154909130058A023 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4DE1E591549091F0058A023 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4E30D5715449EE800E621DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A4E30D591544D2FB00E621DA /* TARecordingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARecordingsViewController.h; sourceTree = "<group>"; };
+		A4E30D5A1544D2FB00E621DA /* TARecordingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARecordingsViewController.m; sourceTree = "<group>"; };
+		A4E30D5C1544E32400E621DA /* iOSPhoneLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSPhoneLarge.png; sourceTree = "<group>"; };
+		A4E30D5E1544E3D100E621DA /* iPhone-E-mail-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-E-mail-Icon.png"; sourceTree = "<group>"; };
+		A4E30D601546486300E621DA /* TARepertoireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARepertoireViewController.h; sourceTree = "<group>"; };
+		A4E30D611546486400E621DA /* TARepertoireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARepertoireViewController.m; sourceTree = "<group>"; };
+		A4E30D6315465AD000E621DA /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		A4E30D65154680E100E621DA /* Bluetooth_Icon_by_justinlavelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bluetooth_Icon_by_justinlavelle.png; sourceTree = "<group>"; };
+		A4E30D6B15468A2500E621DA /* uparrowbt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uparrowbt.png; sourceTree = "<group>"; };
+		A4E30D6D15468AF600E621DA /* downarrowbt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downarrowbt.png; sourceTree = "<group>"; };
+		A4EC31D615424DA1007C07AD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A4EC31E115434B6D007C07AD /* Lesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson.h; sourceTree = "<group>"; };
+		A4EC31E215434B71007C07AD /* Lesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson.m; sourceTree = "<group>"; };
+		A4EC31E7154355C1007C07AD /* Recording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recording.h; sourceTree = "<group>"; };
+		A4EC31E8154355C1007C07AD /* Recording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recording.m; sourceTree = "<group>"; };
+		A4EC31EB1543E584007C07AD /* flare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flare.png; sourceTree = "<group>"; };
+		A4F41FEB1547BC960063A5F7 /* redbluetoothicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbluetoothicon.png; sourceTree = "<group>"; };
+		A4F41FF01547C7190063A5F7 /* welcome_airprint2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_airprint2.png; sourceTree = "<group>"; };
+		A4F41FF21547C8660063A5F7 /* Calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47D23831523FB0400FE9005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE1E3A1548CDD20058A023 /* MessageUI.framework in Frameworks */,
+				A4E30D6415465AD100E621DA /* GameKit.framework in Frameworks */,
+				A4E30D5815449EE800E621DA /* AudioToolbox.framework in Frameworks */,
+				A4EC31D715424DA2007C07AD /* CoreAudio.framework in Frameworks */,
+				A48C32EC152CA0E2006CD385 /* AVFoundation.framework in Frameworks */,
+				A447BC2E152789CA00EC72BF /* CoreLocation.framework in Frameworks */,
+				A447BC231527300A00EC72BF /* AddressBook.framework in Frameworks */,
+				A447BC2115272F2300EC72BF /* AddressBookUI.framework in Frameworks */,
+				A4BCBB471526A6EB0035876F /* MobileCoreServices.framework in Frameworks */,
+				A47D238B1523FB0400FE9005 /* UIKit.framework in Frameworks */,
+				A47D238D1523FB0400FE9005 /* Foundation.framework in Frameworks */,
+				A47D238F1523FB0400FE9005 /* CoreGraphics.framework in Frameworks */,
+				A47D23911523FB0400FE9005 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47D23AB1523FB0500FE9005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D23B11523FB0500FE9005 /* SenTestingKit.framework in Frameworks */,
+				A47D23B21523FB0500FE9005 /* UIKit.framework in Frameworks */,
+				A47D23B31523FB0500FE9005 /* Foundation.framework in Frameworks */,
+				A47D23B41523FB0500FE9005 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47D237B1523FB0400FE9005 = {
+			isa = PBXGroup;
+			children = (
+				A40377911554130F00D8A7BA /* Lesson Book.entitlements */,
+				A4DE1E591549091F0058A023 /* Default@2x.png */,
+				A4DE1E57154909130058A023 /* Default.png */,
+				A48C3338152CEC01006CD385 /* tick.caf */,
+				A48C32F0152CE400006CD385 /* Resources */,
+				A47D23921523FB0400FE9005 /* TeachingAssistant */,
+				A47D23B71523FB0500FE9005 /* TeachingAssistantTests */,
+				A47D23891523FB0400FE9005 /* Frameworks */,
+				A47D23871523FB0400FE9005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47D23871523FB0400FE9005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47D23861523FB0400FE9005 /* Lesson Book.app */,
+				A47D23AF1523FB0500FE9005 /* Lesson BookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47D23891523FB0400FE9005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE1E391548CDD20058A023 /* MessageUI.framework */,
+				A4E30D6315465AD000E621DA /* GameKit.framework */,
+				A4E30D5715449EE800E621DA /* AudioToolbox.framework */,
+				A4EC31D615424DA1007C07AD /* CoreAudio.framework */,
+				A48C32EB152CA0E2006CD385 /* AVFoundation.framework */,
+				A447BC2D152789CA00EC72BF /* CoreLocation.framework */,
+				A447BC221527300A00EC72BF /* AddressBook.framework */,
+				A447BC2015272F2300EC72BF /* AddressBookUI.framework */,
+				A4BCBB461526A6EB0035876F /* MobileCoreServices.framework */,
+				A47D238A1523FB0400FE9005 /* UIKit.framework */,
+				A47D238C1523FB0400FE9005 /* Foundation.framework */,
+				A47D238E1523FB0400FE9005 /* CoreGraphics.framework */,
+				A47D23901523FB0400FE9005 /* CoreData.framework */,
+				A47D23B01523FB0500FE9005 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A47D23921523FB0400FE9005 /* TeachingAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				A41729D4154A41280000DDE0 /* PieceStatus.h */,
+				A41729D5154A41280000DDE0 /* PieceStatus.m */,
+				A47D23A11523FB0500FE9005 /* TeachingAssistant.xcdatamodeld */,
+				A4EC31E7154355C1007C07AD /* Recording.h */,
+				A4EC31E8154355C1007C07AD /* Recording.m */,
+				A4EC31E115434B6D007C07AD /* Lesson.h */,
+				A4EC31E215434B71007C07AD /* Lesson.m */,
+				A48C334A152D6729006CD385 /* Student.h */,
+				A48C334B152D6729006CD385 /* Student.m */,
+				A48C334D152D6A85006CD385 /* Note.h */,
+				A48C334E152D6A85006CD385 /* Note.m */,
+				A47D239E1523FB0500FE9005 /* MainStoryboard.storyboard */,
+				A40377961554F9D700D8A7BA /* TADatabaseViewController.h */,
+				A40377971554F9D700D8A7BA /* TADatabaseViewController.m */,
+				A40377931554186800D8A7BA /* TATextDocument.h */,
+				A40377941554186800D8A7BA /* TATextDocument.m */,
+				A46605161550BDBF002DBF6A /* TAHelpViewController.h */,
+				A46605171550BDBF002DBF6A /* TAHelpViewController.m */,
+				A4E30D601546486300E621DA /* TARepertoireViewController.h */,
+				A4E30D611546486400E621DA /* TARepertoireViewController.m */,
+				A48C3341152D5BD7006CD385 /* TANotesViewController.h */,
+				A48C3342152D5BD8006CD385 /* TANotesViewController.m */,
+				A48C333E152D0806006CD385 /* TAReportViewController.h */,
+				A48C333F152D0807006CD385 /* TAReportViewController.m */,
+				A447BC5C1529160F00EC72BF /* TAConfirmDeleteLessonViewController.h */,
+				A447BC5D1529160F00EC72BF /* TAConfirmDeleteLessonViewController.m */,
+				A447BC431528030B00EC72BF /* CoreDataTableViewController.h */,
+				A447BC441528030B00EC72BF /* CoreDataTableViewController.m */,
+				A447BC2A15276E3E00EC72BF /* UIImageToDataTransformer.h */,
+				A447BC2B15276E3E00EC72BF /* UIImageToDataTransformer.m */,
+				A47D239B1523FB0400FE9005 /* TAAppDelegate.h */,
+				A47D239C1523FB0400FE9005 /* TAAppDelegate.m */,
+				A47D23A41523FB0500FE9005 /* TAMasterViewController.h */,
+				A47D23A51523FB0500FE9005 /* TAMasterViewController.m */,
+				A47D23A71523FB0500FE9005 /* TADetailViewController.h */,
+				A47D23A81523FB0500FE9005 /* TADetailViewController.m */,
+				A47D23CE15240D1000FE9005 /* TAEditStudentViewController.h */,
+				A47D23CF15240D1000FE9005 /* TAEditStudentViewController.m */,
+				A447BC371527C18400EC72BF /* TALessonViewController.h */,
+				A447BC381527C18400EC72BF /* TALessonViewController.m */,
+				A447BC5915290AF500EC72BF /* TALessonDetailViewController.h */,
+				A447BC5A15290AF600EC72BF /* TALessonDetailViewController.m */,
+				A447BC5F1529F25300EC72BF /* TAAddPieceViewController.h */,
+				A447BC601529F25400EC72BF /* TAAddPieceViewController.m */,
+				A48C333B152CF375006CD385 /* TARemovePieceViewController.h */,
+				A48C333C152CF375006CD385 /* TARemovePieceViewController.m */,
+				A43E2243152AEAFF00564714 /* TAPieceDetailViewController.h */,
+				A43E2244152AEAFF00564714 /* TAPieceDetailViewController.m */,
+				A4E30D591544D2FB00E621DA /* TARecordingsViewController.h */,
+				A4E30D5A1544D2FB00E621DA /* TARecordingsViewController.m */,
+				A4B0718D154C1DC200C23945 /* ModalAlertView.h */,
+				A4B0718E154C1DC200C23945 /* ModalAlertView.m */,
+				A43E22401529FDBD00564714 /* Piece.h */,
+				A43E22411529FDBD00564714 /* Piece.m */,
+				A447BC491528071800EC72BF /* Photo.h */,
+				A447BC4A1528071800EC72BF /* Photo.m */,
+				A447BC1915272A1C00EC72BF /* noimage.png */,
+				A47D23931523FB0400FE9005 /* Supporting Files */,
+			);
+			path = TeachingAssistant;
+			sourceTree = "<group>";
+		};
+		A47D23931523FB0400FE9005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47D23941523FB0400FE9005 /* Lesson Book-Info.plist */,
+				A47D23951523FB0400FE9005 /* InfoPlist.strings */,
+				A47D23981523FB0400FE9005 /* main.m */,
+				A47D239A1523FB0400FE9005 /* Lesson Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47D23B71523FB0500FE9005 /* TeachingAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				A47D23BD1523FB0500FE9005 /* TeachingAssistantTests.h */,
+				A47D23BE1523FB0500FE9005 /* TeachingAssistantTests.m */,
+				A47D23B81523FB0500FE9005 /* Supporting Files */,
+			);
+			path = TeachingAssistantTests;
+			sourceTree = "<group>";
+		};
+		A47D23B81523FB0500FE9005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47D23B91523FB0500FE9005 /* Lesson BookTests-Info.plist */,
+				A47D23BA1523FB0500FE9005 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A48C32F0152CE400006CD385 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A466051A1550C48D002DBF6A /* help1.html */,
+				A466051C1550C746002DBF6A /* createStudent.html */,
+				A466051E1550DF38002DBF6A /* createLesson.html */,
+				A46605261550EA1A002DBF6A /* removePiece.html */,
+				A46605241550E7EC002DBF6A /* addingPiece.html */,
+				A46605221550E604002DBF6A /* pieceDetailPage.html */,
+				A46605201550E0F8002DBF6A /* lessonDetailPage.html */,
+				A4EC31EA1543E56F007C07AD /* Images */,
+				A48C32F1152CE4E1006CD385 /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A48C32F1152CE4E1006CD385 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		A4EC31EA1543E56F007C07AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC31EB1543E584007C07AD /* flare.png */,
+				A4E30D5E1544E3D100E621DA /* iPhone-E-mail-Icon.png */,
+				A4E30D65154680E100E621DA /* Bluetooth_Icon_by_justinlavelle.png */,
+				A4F41FEB1547BC960063A5F7 /* redbluetoothicon.png */,
+				A4DE1E4B154908310058A023 /* lessonbooksplash320x480.png */,
+				A4DE1E4D1549083E0058A023 /* lessonbooksplash640x960.png */,
+				A4DE1E55154908F10058A023 /* bookphoto57x57.png */,
+				A4F41FF01547C7190063A5F7 /* welcome_airprint2.png */,
+				A4DE1E4F1549085B0058A023 /* bookphoto114x114.png */,
+				A4DE1E501549085B0058A023 /* bookphoto512x512.png */,
+				A4E30D6B15468A2500E621DA /* uparrowbt.png */,
+				A4F41FF21547C8660063A5F7 /* Calendar-icon.png */,
+				A4E30D6D15468AF600E621DA /* downarrowbt.png */,
+				A4E30D5C1544E32400E621DA /* iOSPhoneLarge.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47D23851523FB0400FE9005 /* Lesson Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47D23C21523FB0500FE9005 /* Build configuration list for PBXNativeTarget "Lesson Book" */;
+			buildPhases = (
+				A47D23821523FB0400FE9005 /* Sources */,
+				A47D23831523FB0400FE9005 /* Frameworks */,
+				A47D23841523FB0400FE9005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson Book";
+			productName = TeachingAssistant;
+			productReference = A47D23861523FB0400FE9005 /* Lesson Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A47D23AE1523FB0500FE9005 /* Lesson BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47D23C51523FB0500FE9005 /* Build configuration list for PBXNativeTarget "Lesson BookTests" */;
+			buildPhases = (
+				A47D23AA1523FB0500FE9005 /* Sources */,
+				A47D23AB1523FB0500FE9005 /* Frameworks */,
+				A47D23AC1523FB0500FE9005 /* Resources */,
+				A47D23AD1523FB0500FE9005 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47D23B61523FB0500FE9005 /* PBXTargetDependency */,
+			);
+			name = "Lesson BookTests";
+			productName = TeachingAssistantTests;
+			productReference = A47D23AF1523FB0500FE9005 /* Lesson BookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47D237D1523FB0400FE9005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A47D23801523FB0400FE9005 /* Build configuration list for PBXProject "Lesson Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A47D237B1523FB0400FE9005;
+			productRefGroup = A47D23871523FB0400FE9005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47D23851523FB0400FE9005 /* Lesson Book */,
+				A47D23AE1523FB0500FE9005 /* Lesson BookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47D23841523FB0400FE9005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48C333A152CEDF5006CD385 /* tick.caf in Resources */,
+				A47D23971523FB0400FE9005 /* InfoPlist.strings in Resources */,
+				A47D23A01523FB0500FE9005 /* MainStoryboard.storyboard in Resources */,
+				A447BC1A15272A1C00EC72BF /* noimage.png in Resources */,
+				A4EC31EC1543E584007C07AD /* flare.png in Resources */,
+				A4E30D5D1544E32400E621DA /* iOSPhoneLarge.png in Resources */,
+				A4E30D5F1544E3D100E621DA /* iPhone-E-mail-Icon.png in Resources */,
+				A4E30D66154680E100E621DA /* Bluetooth_Icon_by_justinlavelle.png in Resources */,
+				A4E30D6C15468A2600E621DA /* uparrowbt.png in Resources */,
+				A4E30D6E15468AF600E621DA /* downarrowbt.png in Resources */,
+				A4F41FEC1547BC960063A5F7 /* redbluetoothicon.png in Resources */,
+				A4F41FF11547C7190063A5F7 /* welcome_airprint2.png in Resources */,
+				A4F41FF31547C8660063A5F7 /* Calendar-icon.png in Resources */,
+				A4DE1E4C154908310058A023 /* lessonbooksplash320x480.png in Resources */,
+				A4DE1E4E1549083E0058A023 /* lessonbooksplash640x960.png in Resources */,
+				A4DE1E521549085B0058A023 /* bookphoto114x114.png in Resources */,
+				A4DE1E531549085B0058A023 /* bookphoto512x512.png in Resources */,
+				A4DE1E56154908F10058A023 /* bookphoto57x57.png in Resources */,
+				A4DE1E58154909130058A023 /* Default.png in Resources */,
+				A4DE1E5A1549091F0058A023 /* Default@2x.png in Resources */,
+				A466051B1550C48D002DBF6A /* help1.html in Resources */,
+				A466051D1550C746002DBF6A /* createStudent.html in Resources */,
+				A466051F1550DF38002DBF6A /* createLesson.html in Resources */,
+				A46605211550E0F8002DBF6A /* lessonDetailPage.html in Resources */,
+				A46605231550E604002DBF6A /* pieceDetailPage.html in Resources */,
+				A46605251550E7EC002DBF6A /* addingPiece.html in Resources */,
+				A46605271550EA1A002DBF6A /* removePiece.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47D23AC1523FB0500FE9005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D23BC1523FB0500FE9005 /* InfoPlist.strings in Resources */,
+				A48C3339152CEC01006CD385 /* tick.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A47D23AD1523FB0500FE9005 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47D23821523FB0400FE9005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A447BC50152809E200EC72BF /* CoreDataTableViewController.m in Sources */,
+				A447BC3015278D8300EC72BF /* UIImageToDataTransformer.m in Sources */,
+				A47D23991523FB0400FE9005 /* main.m in Sources */,
+				A47D239D1523FB0400FE9005 /* TAAppDelegate.m in Sources */,
+				A47D23A31523FB0500FE9005 /* TeachingAssistant.xcdatamodeld in Sources */,
+				A47D23A61523FB0500FE9005 /* TAMasterViewController.m in Sources */,
+				A47D23A91523FB0500FE9005 /* TADetailViewController.m in Sources */,
+				A47D23D015240D1100FE9005 /* TAEditStudentViewController.m in Sources */,
+				A447BC391527C18400EC72BF /* TALessonViewController.m in Sources */,
+				A447BC4B1528071800EC72BF /* Photo.m in Sources */,
+				A447BC5B15290AF600EC72BF /* TALessonDetailViewController.m in Sources */,
+				A447BC5E1529161000EC72BF /* TAConfirmDeleteLessonViewController.m in Sources */,
+				A447BC611529F25400EC72BF /* TAAddPieceViewController.m in Sources */,
+				A43E22421529FDBD00564714 /* Piece.m in Sources */,
+				A43E2245152AEB0000564714 /* TAPieceDetailViewController.m in Sources */,
+				A48C333D152CF375006CD385 /* TARemovePieceViewController.m in Sources */,
+				A48C3340152D0807006CD385 /* TAReportViewController.m in Sources */,
+				A48C3343152D5BD8006CD385 /* TANotesViewController.m in Sources */,
+				A48C334C152D672A006CD385 /* Student.m in Sources */,
+				A48C334F152D6A85006CD385 /* Note.m in Sources */,
+				A4EC31E315434B75007C07AD /* Lesson.m in Sources */,
+				A4EC31E9154355C2007C07AD /* Recording.m in Sources */,
+				A4E30D5B1544D2FB00E621DA /* TARecordingsViewController.m in Sources */,
+				A4E30D621546486400E621DA /* TARepertoireViewController.m in Sources */,
+				A41729D6154A41280000DDE0 /* PieceStatus.m in Sources */,
+				A4B0718F154C1DC200C23945 /* ModalAlertView.m in Sources */,
+				A46605181550BDBF002DBF6A /* TAHelpViewController.m in Sources */,
+				A40377951554186800D8A7BA /* TATextDocument.m in Sources */,
+				A40377981554F9D800D8A7BA /* TADatabaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47D23AA1523FB0500FE9005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D23BF1523FB0500FE9005 /* TeachingAssistantTests.m in Sources */,
+				A447BC2C15276E3E00EC72BF /* UIImageToDataTransformer.m in Sources */,
+				A447BC451528030C00EC72BF /* CoreDataTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A47D23B61523FB0500FE9005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47D23851523FB0400FE9005 /* Lesson Book */;
+			targetProxy = A47D23B51523FB0500FE9005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A47D23951523FB0400FE9005 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D23961523FB0400FE9005 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A47D239E1523FB0500FE9005 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D239F1523FB0500FE9005 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A47D23BA1523FB0500FE9005 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D23BB1523FB0500FE9005 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47D23C01523FB0500FE9005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Toth";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "7494C170-C95B-4F5F-BE98-FFE3F73C6AF2";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A47D23C11523FB0500FE9005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Toth";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7494C170-C95B-4F5F-BE98-FFE3F73C6AF2";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47D23C31523FB0500FE9005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Lesson Book.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Toth";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeachingAssistant/Lesson Book-Prefix.pch";
+				INFOPLIST_FILE = "TeachingAssistant/Lesson Book-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Lesson Book";
+				PROVISIONING_PROFILE = "7494C170-C95B-4F5F-BE98-FFE3F73C6AF2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A47D23C41523FB0500FE9005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Lesson Book.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Toth";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeachingAssistant/Lesson Book-Prefix.pch";
+				INFOPLIST_FILE = "TeachingAssistant/Lesson Book-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Lesson Book";
+				PROVISIONING_PROFILE = "7494C170-C95B-4F5F-BE98-FFE3F73C6AF2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A47D23C61523FB0500FE9005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeachingAssistant.app/TeachingAssistant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeachingAssistant/TeachingAssistant-Prefix.pch";
+				INFOPLIST_FILE = "TeachingAssistantTests/Lesson BookTests-Info.plist";
+				PRODUCT_NAME = "Lesson BookTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A47D23C71523FB0500FE9005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeachingAssistant.app/TeachingAssistant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeachingAssistant/TeachingAssistant-Prefix.pch";
+				INFOPLIST_FILE = "TeachingAssistantTests/Lesson BookTests-Info.plist";
+				PRODUCT_NAME = "Lesson BookTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47D23801523FB0400FE9005 /* Build configuration list for PBXProject "Lesson Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D23C01523FB0500FE9005 /* Debug */,
+				A47D23C11523FB0500FE9005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47D23C21523FB0500FE9005 /* Build configuration list for PBXNativeTarget "Lesson Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D23C31523FB0500FE9005 /* Debug */,
+				A47D23C41523FB0500FE9005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47D23C51523FB0500FE9005 /* Build configuration list for PBXNativeTarget "Lesson BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47D23C61523FB0500FE9005 /* Debug */,
+				A47D23C71523FB0500FE9005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A47D23A11523FB0500FE9005 /* TeachingAssistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A47D23A21523FB0500FE9005 /* TeachingAssistant.xcdatamodel */,
+			);
+			currentVersion = A47D23A21523FB0500FE9005 /* TeachingAssistant.xcdatamodel */;
+			path = TeachingAssistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A47D237D1523FB0400FE9005 /* Project object */;
+}
